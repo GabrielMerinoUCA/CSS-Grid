@@ -1,3 +1,4 @@
+
 .container-grid {
     display: grid; /* this is what actaually creates the grid*/
     grid-template-columns: auto auto auto; /*each auto is a column, auto resizes perfectly to the size of the browser windows*/
@@ -5,7 +6,11 @@
     grid-template-rows: 100px 100px 100px;
 }
 
-section {
+.section1{
+    grid-column: 1;/* starting column, the ending column will be the next one if not specified */
+    grid-row: 1; /* starting row, same thing, the ending row will be the next one if not specified */
+    background-color: blue;
+    color: white;
     text-align: center;
-    background-color: aquamarine;
+    font-size: 20px;
 }
