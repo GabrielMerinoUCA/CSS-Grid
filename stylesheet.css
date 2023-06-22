@@ -1,0 +1,11 @@
+.container-grid {
+    display: grid; /* this is what actaually creates the grid*/
+    grid-template-columns: auto auto auto; /*each auto is a column, auto resizes perfectly to the size of the browser windows*/
+    grid-gap: 10px; /* the space between columns and rows, also called gutters*/
+    grid-template-rows: 100px 100px 100px;
+}
+
+section {
+    text-align: center;
+    background-color: aquamarine;
+}
