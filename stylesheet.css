@@ -6,7 +6,7 @@
     grid-template-rows: 100px 100px 100px;
 }
 
-.section1{
+.section1 {
     grid-column: 1;/* starting column, the ending column will be the next one if not specified */
     grid-row: 1; /* starting row, same thing, the ending row will be the next one if not specified */
     background-color: blue;
@@ -14,3 +14,68 @@
     text-align: center;
     font-size: 20px;
 }
+.section2 {
+    grid-column: 2;
+    grid-row: 1; 
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.section3 {
+    grid-column: 3;
+    grid-row: 1; 
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.section4 {
+    grid-column: 1;
+    grid-row: 2; 
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.section5 {
+    grid-column: 2;
+    grid-row: 2; 
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.section6 {
+    grid-column: 3;
+    grid-row: 2; 
+    background-color: darkorange;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.section7 {
+    grid-column: 1;
+    grid-row: 3; 
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.section8 {
+    grid-column: 2;
+    grid-row: 3; 
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.section9 {
+    grid-column: 3;
+    grid-row: 3; 
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
